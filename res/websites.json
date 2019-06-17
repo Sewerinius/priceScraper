@@ -1,0 +1,40 @@
+[
+  {
+    "name": "X-Kom",
+    "domain": "x-kom.pl",
+    "searchURL": "https://www.x-kom.pl/szukaj?q=",
+    "searchList": "#productList .product-item",
+    "searchAttributes": {
+      "price": {
+        "type": "prop",
+        "property": "data-product-price",
+        "selector": ".product-item"
+      },
+      "img": {
+        "type": "prop",
+        "property": "src",
+        "selector": "a > img.img"
+      },
+      "name": {
+        "type": "prop",
+        "property": "data-product-name",
+        "selector": ".product-item"
+      },
+      "address": {
+        "type": "prop",
+        "property": "abs:href",
+        "selector": ".product-item > a"
+      }
+    },
+    "tags": [
+      "Electro",
+      "AGD"
+    ],
+    "attributes": {
+      "price": {
+        "type": "text",
+        "selector": ".cFNHuG"
+      }
+    }
+  }
+]
