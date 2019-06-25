@@ -1,0 +1,39 @@
+{
+  "name": "Komputronik",
+  "domain": "komputronik.pl",
+  "searchURL": "https://www.komputronik.pl/search/?query=",
+  "searchList": ".product-entry2-wrap > .product-entry2",
+  "searchAttributes": {
+    "price": {
+      "type": "text",
+      "selector": ".at-gross-price-0, .at-max-price-0",
+      "regex": "([\\d]*)\\s*([\\d]*) zł"
+    },
+    "img": {
+      "type": "prop",
+      "property": "abs:src",
+      "selector": ".pe2-img img"
+    },
+    "name": {
+      "type": "text",
+      "selector": "a.at-variant-name-0, a.at-product-name-0",
+      "regex": ".*"
+    },
+    "address": {
+      "type": "prop",
+      "property": "abs:href",
+      "selector": "a.at-variant-name-0, a.at-product-name-0"
+    }
+  },
+  "tags": [
+    "Electro",
+    "AGD"
+  ],
+  "attributes": {
+    "price": {
+      "type": "prop",
+      "selector": "meta[property=\"product:price:amount\"]",
+      "property": "content"
+    }
+  }
+}

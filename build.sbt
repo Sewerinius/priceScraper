@@ -6,6 +6,8 @@ scalaVersion := "2.12.8"
 
 libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.1.0"
 libraryDependencies += "io.spray" %%  "spray-json" % "1.3.5"
-libraryDependencies += "org.scalafx" %% "scalafx" % "8.0.144-R12"
+//libraryDependencies += "org.scalafx" %% "scalafx" % "8.0.144-R12"
+libraryDependencies += "org.scalafx" %% "scalafx" % "10.0.2-R15"
+
 
 resourceDirectory in Compile := file("res")

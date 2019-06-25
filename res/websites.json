@@ -32,8 +32,83 @@
     ],
     "attributes": {
       "price": {
+        "type": "prop",
+        "selector": "meta[property=\"product:price:amount\"]",
+        "property": "content"
+      }
+    }
+  }, {
+    "name": "Mediaexpert",
+    "domain": "mediaexpert.pl",
+    "searchURL": "https://www.mediaexpert.pl/produkty.html?query=",
+    "searchList": "div.c-gridProductList .c-offerBox",
+    "searchAttributes": {
+      "price": {
+        "type": "prop",
+        "property": "data-product-price",
+        "selector": ".c-btn.is-primary.js-productData"
+      },
+      "img": {
+        "type": "prop",
+        "property": "abs:src",
+        "selector": "div.swiper-container img.swiper-lazy-loaded"
+      },
+      "name": {
+        "type": "prop",
+        "property": "data-product-name",
+        "selector": ".c-btn.is-primary.js-productData"
+      },
+      "address": {
+        "type": "prop",
+        "property": "abs:href",
+        "selector": ".c-offerBox_title > a"
+      }
+    },
+    "tags": [
+      "Electro"
+    ],
+    "attributes": {
+      "price": {
+        "type": "prop",
+        "selector": "meta[property=\"product:price:amount\"]",
+        "property": "content"
+      }
+    }
+  }, {
+    "name": "Guitarcenter",
+    "domain": "guitarcenter.pl",
+    "searchURL": "https://guitarcenter.pl/catalog/advanced_search_result.php?keywords=",
+    "searchList": ".productlist_container .product",
+    "searchAttributes": {
+      "price": {
         "type": "text",
-        "selector": ".cFNHuG"
+        "selector": ".aktualnacena",
+        "regex": "([\\d]*),[\\d]*zł"
+      },
+      "img": {
+        "type": "prop",
+        "property": "abs:src",
+        "selector": "a.img > img"
+      },
+      "name": {
+        "type": "text",
+        "selector": ".productname",
+        "regex": "(.*)"
+      },
+      "address": {
+        "type": "prop",
+        "property": "abs:href",
+        "selector": ".productname"
+      }
+    },
+    "tags": [
+      "Electro"
+    ],
+    "attributes": {
+      "price": {
+        "type": "prop",
+        "selector": "td[itemprop=\"price\"]",
+        "property": "content"
       }
     }
   }

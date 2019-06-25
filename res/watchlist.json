@@ -1,8 +1,31 @@
-[
-  {
-    "shop": "X-Kom",
-    "webPage": "https://www.x-kom.pl/p/447377-notebook-laptop-156-dell-inspiron-5570-i5-8250u-8gb-256-win10-r530-czarny.html",
-    "interval": 1440,
-    "active": true
-  }
-]
+[{
+  "active": true,
+  "interval": 1,
+  "name": "Dell Inspiron 3567 i3-7020U/8GB/240+1TB/Win10 FHD ",
+  "shop": "X-Kom",
+  "webpage": "https://www.x-kom.pl/p/454907-notebook-laptop-156-dell-inspiron-3567-i3-7020u-8gb-2401tb-win10-fhd.html"
+}, {
+  "active": false,
+  "interval": 1440,
+  "name": "Dell Inspiron 3573 N5000/8GB/240/Win10 ",
+  "shop": "X-Kom",
+  "webpage": "https://www.x-kom.pl/p/471076-notebook-laptop-156-dell-inspiron-3573-n5000-8gb-240-win10.html"
+}, {
+  "active": true,
+  "interval": 60,
+  "name": "Dell Inspiron G5 i7-8750H/16G/256+1000/Win10 GTX1060",
+  "shop": "X-Kom",
+  "webpage": "https://www.x-kom.pl/p/429484-notebook-laptop-156-dell-inspiron-g5-i7-8750h-16g-2561000-win10-gtx1060.html"
+}, {
+  "active": true,
+  "interval": 1440,
+  "name": "Dell Inspiron 5570 i5-8250U/8GB/240+1000/Win10 FHD ",
+  "shop": "X-Kom",
+  "webpage": "https://www.x-kom.pl/p/456648-notebook-laptop-156-dell-inspiron-5570-i5-8250u-8gb-2401000-win10-fhd.html"
+}, {
+  "active": false,
+  "interval": 1440,
+  "name": "Dummy",
+  "shop": "X-Kom",
+  "webpage": "https://www.x-kom.pl/p/dummy.html"
+}]
